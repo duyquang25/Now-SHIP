@@ -1,7 +1,7 @@
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
     padding: 4.5rem 0 1rem;
-
+    
     &__title, &__title-center{
         font-size: var(--h2-font-size);
         color: var(--title-color);
@@ -9,6 +9,7 @@
         margin-bottom: var(--mb-1);
     }
 }
+
 .svg{
     &__color{
         fill: var(--first-color);
@@ -21,6 +22,7 @@
         justify-self: center;
     }
 }
+
 /*=============== LAYOUT ===============*/
 .container{
     max-width: 968px;
@@ -28,7 +30,7 @@
     margin-right: var(--mb-1-5);
 }
 
-.gird{
+.grid{
     display: grid;
     gap: 1.5rem;
 }

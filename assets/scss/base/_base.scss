@@ -1,10 +1,10 @@
 /*=============== BASE ===============*/
-
-*, ::before, ::after {
+*,::before,::after{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -13,9 +13,9 @@ body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--text-color);
+    background-color: var(--body-color);
     color: var(--text-color);
-    // transition: 0.5s; // Animation for dark mode
+    transition: .5s; // For animation dark mode
 }
 
 h1,h2,h3{
@@ -23,6 +23,7 @@ h1,h2,h3{
     color: var(--title-color);
     line-height: 1.5;
 }
+
 ul{
     list-style: none;
 }
