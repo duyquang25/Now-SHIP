@@ -4,8 +4,8 @@
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  --hue: 359;
-  --sat: 77%;
+  --hue: 376;
+  --sat: 85%;
   --first-color: hsl(var(--hue), var(--sat), 60%);
   --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
@@ -107,7 +107,7 @@ body.dark-theme {
   right: 1.5rem;
   top: 2.2rem;
   color: var(--title-color);
-  font-size: 1.8rem;
+  font-size: 2.25rem;
   cursor: pointer;
 }
 
@@ -171,6 +171,10 @@ body.dark-theme {
   align-items: center;
 }
 
+.nav__logo {
+  font-size: 1.25rem;
+}
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -192,7 +196,7 @@ body.dark-theme {
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 1.5rem;
+  row-gap: 1.25rem;
 }
 
 .nav__link, .nav__logo, .nav__toggle {
@@ -292,6 +296,15 @@ body.dark-theme {
 }
 
 .about__data {
+  text-align: center;
+}
+
+/*=============== SENT GIFT ===============*/
+.sentgift__container {
+  gap: 2.5rem;
+}
+
+.sentgift__data {
   text-align: center;
 }
 
@@ -440,7 +453,7 @@ body.dark-theme {
 }
 
 .scrollup__icon {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: var(--title-color);
 }
 
@@ -492,6 +505,7 @@ body.dark-theme {
   }
   .home__container,
   .about__container,
+  .sentgift__container,
   .security__container,
   .services__container,
   .app__container,
@@ -504,18 +518,21 @@ body.dark-theme {
   }
   .home__container,
   .about__container,
+  .sentgift__container,
   .security__container,
   .app__container,
   .contact__container {
     align-items: center;
   }
   .about__data,
+  .sentgift__data,
   .security__data,
   .app__data,
   .contact__description {
     text-align: initial;
   }
   .about__img,
+  .sentgift__img,
   .app__img {
     order: -1;
   }
@@ -558,6 +575,7 @@ body.dark-theme {
     width: 470px;
   }
   .about__container,
+  .sentgift__container,
   .security__container,
   .app__container,
   .contact__container {

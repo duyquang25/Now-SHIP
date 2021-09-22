@@ -30,6 +30,7 @@
 
     .home__container, 
     .about__container,
+    .sentgift__container,
     .security__container,
     .services__container,
     .app__container,
@@ -44,6 +45,7 @@
 
     .home__container,
     .about__container,
+    .sentgift__container,
     .security__container,
     .app__container,
     .contact__container{
@@ -51,6 +53,7 @@
     }
 
     .about__data,
+    .sentgift__data,
     .security__data,
     .app__data,
     .contact__description{
@@ -58,6 +61,7 @@
     }
 
     .about__img,
+    .sentgift__img,
     .app__img{
         order: -1;
     }
@@ -108,6 +112,7 @@
     }
 
     .about__container,
+    .sentgift__container,
     .security__container,
     .app__container,
     .contact__container{
