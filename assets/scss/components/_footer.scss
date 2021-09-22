@@ -36,6 +36,10 @@
             font-size: 1.25rem;
             color: var(--title-color);
         }
+
+        &:hover{
+            color: var(--first-color);
+        }
     }
     &__copy{
         margin-top: 6rem;

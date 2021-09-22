@@ -426,6 +426,10 @@ body.dark-theme {
   color: var(--title-color);
 }
 
+.footer__social:hover {
+  color: var(--first-color);
+}
+
 .footer__copy {
   margin-top: 6rem;
   text-align: center;
@@ -453,7 +457,7 @@ body.dark-theme {
 }
 
 .scrollup__icon {
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: var(--title-color);
 }
 
@@ -595,6 +599,9 @@ body.dark-theme {
   }
   .footer__social-link {
     font-size: 1.45rem;
+  }
+  .scrollup__icon {
+    font-size: 2rem;
   }
 }
 
